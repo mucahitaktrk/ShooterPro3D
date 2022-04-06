@@ -1,0 +1,34 @@
+{
+    "name": "PlayerInput",
+    "maps": [
+        {
+            "name": "Player Controller",
+            "id": "c767cd59-5aa3-4515-a189-d77f8cf899ee",
+            "actions": [
+                {
+                    "name": "InputSystem",
+                    "type": "PassThrough",
+                    "id": "b0717961-e6f3-4b25-9aad-45bb44f7c5f5",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "83d77e1b-2428-4ef5-9d8d-987e85f5d402",
+                    "path": "<AndroidJoystick>/stick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "InputSystem",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
